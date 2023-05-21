@@ -123,7 +123,9 @@ function building() {
       "app/images/sprite.svg", */
       "app/fonts/*.*",
       "app/js/main.min.js",
-      "!app/**/*.html",
+      "app/**/*.html",
+      "!app/pages/*.*",
+      "!app/components/*.*"
     ],
     {
       base: "app",
@@ -139,6 +141,7 @@ exports.scripts = scripts;
 exports.pages = pages;
 exports.watching = watching;
 exports.building = building;
+exports.cleanDist = cleanDist;
 
 exports.build = series(cleanDist, building);
 exports.default = parallel(styles, images, scripts, pages, watching);
