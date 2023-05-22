@@ -226,3 +226,58 @@ button {
 .category__link:hover .category__name {
     opacity: 1;
 }
+
+/* Fashion Products */
+
+.section__title {
+    font-size     : 20px;
+    line-height   : 30px;
+    text-align    : center;
+    margin-bottom : 15px;
+    text-transform: uppercase;
+}
+
+.section__subtitle {
+    text-align   : center;
+    margin-bottom: 65px;
+}
+
+.fashion-product-wrap {
+    display        : flex;
+    justify-content: space-between;
+    flex-wrap      : nowrap;
+}
+
+.fashion-product {
+    width: 24%;
+}
+
+.fashion-product__pic {
+    margin-bottom: 38px;
+}
+
+.fashion-product__brand {
+    display       : block;
+    font-weight   : 300;
+    text-transform: uppercase;
+}
+
+.fashion-product__link {
+    display       : block;
+    font-weight   : 600;
+    text-transform: uppercase;
+    margin        : 3px 0;
+}
+
+.fashion-product__link:hover {
+    color: #791363;
+}
+
+.fashion-product__price_old {
+    text-decoration: line-through;
+}
+
+.fashion-product__price_new {
+    color      : #CF2929;
+    margin-left: 35px;
+}
