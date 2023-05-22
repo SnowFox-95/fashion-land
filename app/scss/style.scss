@@ -281,3 +281,47 @@ button {
     color      : #CF2929;
     margin-left: 35px;
 }
+
+/* Style */
+
+.style {
+    display        : flex;
+    justify-content: space-between;
+    height         : 700px;
+}
+
+.style-left {
+    width     : 49%;
+    height    : 100%;
+    background: url(../images/style-1.jpg)100% 100%/550px no-repeat;
+}
+
+.style-right {
+    position  : relative;
+    width     : 49%;
+    height    : 100%;
+    background: url(../images/style-2.jpg)0% 0%/515px no-repeat;
+}
+
+.style-right::after {
+    position  : absolute;
+    content   : '';
+    bottom    : 0;
+    right     : 400px;
+    height    : 303px;
+    width     : 252px;
+    background: #fff url(../images/style-3.jpg) 100% 100%/227px 281px no-repeat;
+}
+
+.style__link {
+    text-transform: uppercase;
+    position      : absolute;
+    z-index       : 2;
+    right         : 650px;
+    bottom        : 50px;
+    border-bottom : 1px solid #000;
+}
+
+.style__link:hover {
+    color: #791363;
+}
