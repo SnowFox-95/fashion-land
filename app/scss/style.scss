@@ -8,6 +8,18 @@
     box-sizing: border-box;
 }
 
+/* Custom ScrollBar */
+::-webkit-scrollbar {
+    width        : 0.5rem;
+    background   : #e90fba;
+    border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    width     : 0.5rem;
+    background: #791363;
+}
+
 body {
     color: #22262a;
 
@@ -324,4 +336,181 @@ button {
 
 .style__link:hover {
     color: #791363;
+}
+
+/* Collection */
+.collection-wrap {
+    background: url(../images/ban-bg.jpg) 0%/cover no-repeat;
+    margin-top: 121px;
+}
+
+.collection {
+    margin-right: auto;
+    margin-left : 0;
+}
+
+.collection .btn-primary {
+    margin-top: 10px;
+    padding   : 4px 25px;
+}
+
+/* Footer */
+.footer-main {
+    padding         : 115px 0 105px;
+    background-color: #f2f8fc;
+}
+
+.footer {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-size    : 25px;
+    line-height  : 38px;
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    width        : 405px;
+    margin-bottom: 40px;
+}
+
+.footer__location {
+    position: relative;
+    display : block;
+    margin  : 0 0 15px 40px;
+}
+
+.footer__location::before {
+    position  : absolute;
+    content   : "";
+    top       : 5px;
+    left      : -40px;
+    width     : 15px;
+    height    : 15px;
+    background: url(../images/location.svg) 100% 100% no-repeat;
+}
+
+.footer__mail {
+    position      : relative;
+    cursor        : pointer;
+    display       : inline-block;
+    padding-bottom: 7px;
+}
+
+.footer__mail:hover {
+    color: #791363;
+}
+
+.footer__tel {
+    display      : block;
+    margin-bottom: 17px;
+}
+
+.footer__mail::after {
+    position        : absolute;
+    content         : '';
+    bottom          : 5px;
+    left            : 0;
+    width           : 100%;
+    height          : 1px;
+    background-color: #000;
+}
+
+.social {
+    display    : flex;
+    align-items: center;
+}
+
+.social__link svg {
+    background-size: 17px 17px;
+
+}
+
+.social__link>svg {
+    margin-right: 15px;
+    transition  : .4s;
+}
+
+.social__link:hover svg {
+    fill: #791363;
+}
+
+.footer__form {
+    display        : flex;
+    justify-content: space-between;
+    width          : 530px;
+    margin-bottom  : 70px;
+    box-shadow     : 0px 0px 5px rgb(0 0 0 /7%);
+    border-radius  : 5px;
+}
+
+.footer__form-input {
+    width  : 100%;
+    padding: 10px 25px;
+    color  : inherit;
+    font   : inherit;
+    outline: none;
+    border : 1px solid transparent;
+}
+
+.footer__form-input:focus {
+    border: 1px solid #22262a;
+}
+
+.footer__form-button {
+    width         : 75px;
+    color         : inherit;
+    font-weight   : 600;
+    text-transform: uppercase;
+}
+
+.footer__form-button:hover {
+    color           : #fff;
+    background-color: #000;
+}
+
+.footer-nav-wrap {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.footer-nav__title {
+    font: {
+        size  : 20px;
+        weight: 600;
+    }
+
+    line-height  : 30px;
+    margin-bottom: 25px;
+}
+
+.footer-nav__item {
+    margin-bottom: 20px;
+}
+
+.footer-nav__item a:hover {
+    color: #791363;
+}
+
+/* Copyright */
+.footer-copyright {
+    background-color: #E7F5F8;
+    text-align      : center;
+}
+
+.gh-link {
+
+    text-align    : center;
+    text-transform: uppercase;
+    cursor        : pointer;
+
+
+}
+
+.gh-link p {
+    background-color: #E7F5F8;
+    margin-top      : 7px;
+    padding-bottom  : 35px;
 }
