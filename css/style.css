@@ -108,7 +108,7 @@ button {
 .banner-wrap {
   padding: 425px 0 100px;
   background: url(../images/home-bg.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .banner {
@@ -308,7 +308,7 @@ button {
 
 /* Collection */
 .collection-wrap {
-  background: url(../images/ban-bg.jpg) 0%/cover no-repeat;
+  background: url(../images/ban-bg.jpg) 0%/contain no-repeat;
   margin-top: 121px;
 }
 
