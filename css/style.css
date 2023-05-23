@@ -287,7 +287,7 @@ button {
   position: absolute;
   content: "";
   bottom: 0;
-  right: 400px;
+  right: 290px;
   height: 303px;
   width: 252px;
   background: #fff url(../images/style-3.jpg) 100% 100%/227px 281px no-repeat;
@@ -297,7 +297,7 @@ button {
   text-transform: uppercase;
   position: absolute;
   z-index: 2;
-  right: 650px;
+  right: 550px;
   bottom: 50px;
   border-bottom: 1px solid #000;
 }
