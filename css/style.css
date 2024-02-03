@@ -284,21 +284,21 @@ button {
 }
 
 .style-right::after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  right: 290px;
-  height: 303px;
-  width: 252px;
-  background: #fff url(../images/style-3.jpg) 100% 100%/227px 281px no-repeat;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 36px;
+    height: 303px;
+    width: 252px;
+    background: #fff url(../images/style-3.jpg) 100% 100%/227px 281px no-repeat;
 }
 
 .style__link {
   text-transform: uppercase;
   position: absolute;
   z-index: 2;
-  right: 550px;
-  bottom: 50px;
+  right: 480px;
+  bottom: 0px;
   border-bottom: 1px solid #000;
 }
 
